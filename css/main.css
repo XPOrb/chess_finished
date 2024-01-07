@@ -1,0 +1,105 @@
+body {
+    background-color: #1c283b;
+    color: white;
+}
+
+.whiteknight{
+    background-image: url("../images/wN.png");
+}
+
+.blackknight{
+    background-image: url("../images/bN.png");
+}
+
+.whitebishop{
+    background-image: url("../images/wB.png");
+}
+
+.blackbishop{
+    background-image: url("../images/bB.png");
+}
+
+.whitepawn{
+    background-image: url("../images/wP.png");
+}
+
+.blackpawn{
+    background-image: url("../images/bP.png");
+}
+
+.whiteking{
+    background-image: url("../images/wK.png");
+}
+
+.blackking{
+    background-image: url("../images/bK.png");
+}
+
+.whiterook{
+    background-image: url("../images/wR.png");
+}
+
+.blackrook{
+    background-image: url("../images/bR.png");
+}
+
+.whitequeen{
+    background-image: url("../images/wQ.png");
+}
+
+.blackqueen{
+    background-image: url("../images/bQ.png");
+}
+
+.board {
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    cursor: default;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+    font-family: 'Linux Libertine', serif;
+    font-size: 500%;
+    color: white;
+}
+
+img {
+    position: absolute;
+    height: 75%;
+    width: height;
+    max-width: 75vw;
+    max-height: 75vw;
+}
+
+whitepiece {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100;
+    height: auto;
+    max-width: 100vw;
+    background-size: cover;
+    z-index: 2;
+}
+
+blackpiece {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100;
+    height: auto;
+    max-width: 100vw;
+    background-size: cover;
+    z-index: 2;
+}
